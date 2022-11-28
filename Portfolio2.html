@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio2.css">
+    <title>BOSTECH</title>
+    <style>
+        *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  overflow: auto;
+  color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+  background:linear-gradient(90deg, #4169E1 49.6%, rgba(255, 0, 127, 0.92) 49.61%);
+} 
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  width: 100%;
+
+}
+.contactlink li{
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  
+}
+nav{
+  background-color: #0000ff;
+}
+.menu li {
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+}
+.menu li:hover{
+  text-decoration: underline;
+}
+.contactlink a:hover{
+  text-decoration: underline;
+  background-color: #e40fc4;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+ 
+ h1{
+  text-align: center;
+  margin: 20px 25px 20px 20px;
+  padding: 0px;
+    font-size: 64px;
+  
+
+    
+
+ }
+ img{
+  max-width: 100%;
+  width: 600px;
+  height: 400px;
+  display: inline block;
+ }
+.contactlink a{
+    display: inline-block;
+    
+    font-size:15px;
+   text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+    padding: 10px;
+font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+    background-color: #0000ff;
+    color:#ffffff
+
+  
+}
+    .info{
+      display: flex;
+      text-align:center;
+      border-radius:20px;
+      padding:20px;
+      line-height: 1.5rem;
+      width:300px;
+      height:140px;
+      background-color:#ffffff;
+      color:black;
+      margin-left:30px;
+      font-weight:normal;
+      border-color: #0000ff;
+      border-style: solid;
+      border-width: 2px;
+
+    }
+    .form{
+      max-width: 100%;
+      height: auto;
+      width: 400px;
+      display:inline block;
+      background-color: #0000ff;
+     float:right;
+    padding:auto;
+    align-items: center;
+    margin: 25px 10px 10px 0px;
+    border-radius: 15px;
+   
+    }
+    span{
+      color:rgba(255, 255, 255,);
+      padding: 10px 40px 10px 10px;
+      font-weight: bold;
+      font-size: 15px;
+      display: flexbox;
+      margin: 25px 10px 10px 10px;
+     
+    }
+    input,textarea{
+      padding:10px 30px 10px 30px;
+      margin: 20px 50px 20px 20px;
+      border-radius: 20px;
+      width: 50%;
+      border-color: black;
+      display: inline block;
+    }
+    #message{
+     float:left;
+      text-align: left;
+      margin:auto;
+      padding: 30px;
+    }
+    textarea{
+      margin-top: 10px;
+    }
+    .details{
+      margin:0px;
+    }
+    button{
+      background-color: rgb(249, 249, 249);
+      color: blue;
+      padding:10px 30px 10px 30px;
+      text-align: center;
+      border-radius: 20px;
+      margin: 10px 40px 20px 20px;
+      border-color: blue 3px solid;
+      font-size:18px;
+    font-weight: bold
+    }
+    </style>
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+        <li><a href="Portfolio.html">About</a></li>
+        <li><a href="portfolio3.html">Projects</a></li>
+        <li><a href="Portfolio2.html">Contacts</a></li>
+      </ul>
+    </nav>
+      <div>
+       <h1>Contact Me Now</h1>
+       </div>
+        <img src="Image/contact.png" width="700px" height="500px">
+    
+    
+    <section>
+        
+        <p class="info"> Do you want me to work with you as a team on your project or you want to hire me as an intern in your company? Then kindly get through me via;</p>
+       </section>
+       <nav class="contactlink">
+         <ul class="Contactlink">
+          <li><a href="#email">✉️ Email</a></li>
+           <li><a href="https://wa.me/+2349050253055?text=Hello,%20Welcome%20to%20BOStech🤗%20how %20can%20I%20help%20you?">Whatsapp</a></li>
+      <li><a href="tel:+2348142889960">📞 Phone Call</a></li><hr>
+       </ul>
+       </nav>
+       <form action="https://formsubmit.co/babajideshukura864@gmail.com" method="POST" class="form">
+        
+      <span>Name:</span> <input id="email"text="name" value="Babajide Shukurat" Placeholder="Put in your full name"></input><br>
+        <span >Email:</span> <input text="email" value="babajideshuks@gmail.com" placeholder="Your email address"></input><br>
+       <span class="details">Subject:</span> <input text="text" placeholder="What is theme of your message" Value="UI/UX INTERNSHIP"><br>
+   <span id="message">Message:</span><textarea rows="7" cols="40" name="comments" form="usrform" >Type message here... </textarea><br>
+   <button type="submit">Submit</button>
+   </form>
+        
+        
+        
+  

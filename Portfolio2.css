@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  overflow: auto;
+  color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+  background:linear-gradient(90deg, #4169E1 49.6%, rgba(255, 0, 127, 0.92) 49.61%);
+} 
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  width: 100%;
+  background-color: #0000ff;
+}
+.menu li {
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+}
+.menu li:hover, .contactlink li:hover{
+  text-decoration: underline;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+ 
+ h1{
+  text-align: center;
+  margin: 20px 25px 20px 20px;
+  padding: 0px;
+    font-size: 64px;
+  
+
+    
+
+ }
+ img{
+  max-width: 100%;
+  width: 600px;
+  height: 400px;
+  display: inline block;
+ }
+.Contactlink{
+    display: flex;
+    flex-direction: column;
+    font-size:15px;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px 0px 0px 80px;
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+    background-color: #0000ff;
+}
+    .info{
+      display: flex;
+      text-align:center;
+      border-radius:20px;
+      padding:20px;
+      line-height: 1.5rem;
+      width:300px;
+      height:140px;
+      background-color:#ffffff;
+      color:black;
+      margin-left:30px;
+      font-weight:normal;
+      border-color: #0000ff;
+      border-style: solid;
+      border-width: 2px;
+
+    }
+    .form{
+      max-width: 100%;
+      height: auto;
+      width: 400px;
+      display:inline block;
+      background-color: #0000ff;
+     float:right;
+    padding:auto;
+    align-items: center;
+    margin: 25px 10px 10px 0px;
+    border-radius: 15px;
+   
+    }
+    span{
+      color:rgba(255, 255, 255,);
+      padding: 10px 40px 10px 10px;
+      font-weight: bold;
+      font-size: 15px;
+      display: flexbox;
+      margin: 25px 10px 10px 10px;
+     
+    }
+    input,textarea{
+      padding:10px 30px 10px 30px;
+      margin: 20px 50px 20px 20px;
+      border-radius: 20px;
+      width: 50%;
+      border-color: black;
+      display: in-line block;
+    }
+    #message{
+     float:left;
+      text-align: left;
+      margin:auto;
+      padding: 30px;
+    }
+    textarea{
+      margin-top: 10px;
+    }
+    .details{
+      margin:0px;
+    }
+    button{
+      background-color: rgb(249, 249, 249);
+      color: blue;
+      padding:10px 30px 10px 30px;
+      text-align: center;
+      border-radius: 20px;
+      margin: 10px 30% 10px 10px;
+      border-color: blue 3px solid;
+      font-size:18px;
+    font-weight: bold
+    }
