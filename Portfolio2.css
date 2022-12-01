@@ -41,65 +41,73 @@ body {
   margin: 20px 25px 20px 20px;
   padding: 0px;
     font-size: 64px;
-  
-
-    
-
- }
+  }
  img{
   max-width: 100%;
   width: 600px;
   height: 400px;
-  display: inline block;
+  display:flex;
  }
-.Contactlink{
-    display: flex;
-    flex-direction: column;
-    font-size:15px;
-    align-items: center;
-    text-decoration: none;
-    margin: 5px 0px 0px 80px;
-    border-radius: 5px;
-    padding: 10px;
-    float: left;
-    background-color: #0000ff;
+ .contactlink a{
+  display: block;
+  color:#ffffff;
+  padding: 5px;
+  font-size:15px;
+  border-radius: 5px;
+  margin: 20px;
+  }
+ 
+ .contactlink li{
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: auto;
 }
-    .info{
+  
+#contactlink
+{
+  background-color: #0000ff;
+  margin: auto;
+ border-radius: 5px;
+   }
+
+.info{
       display: flex;
+      flex-wrap: wrap;
       text-align:center;
       border-radius:20px;
       padding:20px;
       line-height: 1.5rem;
-      width:300px;
-      height:140px;
+      width:400px;
+      height:300px;
       background-color:#ffffff;
       color:black;
-      margin-left:30px;
+      margin:auto;
+      margin-left: 700px;
       font-weight:normal;
       border-color: #0000ff;
       border-style: solid;
       border-width: 2px;
-
+      position: relative;
+      top:-350px;
     }
     .form{
       max-width: 100%;
-      height: auto;
+      height: 75%;
       width: 400px;
-      display:inline block;
+      display:block;
       background-color: #0000ff;
-     float:right;
     padding:auto;
     align-items: center;
-    margin: 25px 10px 10px 0px;
     border-radius: 15px;
-   
+    margin: auto;
+    margin-top: -300px;
     }
     span{
       color:rgba(255, 255, 255,);
       padding: 10px 40px 10px 10px;
       font-weight: bold;
       font-size: 15px;
-      display: flexbox;
       margin: 25px 10px 10px 10px;
      
     }
@@ -129,8 +137,18 @@ body {
       padding:10px 30px 10px 30px;
       text-align: center;
       border-radius: 20px;
-      margin: 10px 30% 10px 10px;
+      margin: auto;
+      margin-bottom: 20px;
       border-color: blue 3px solid;
       font-size:18px;
     font-weight: bold
-    }
+  }
+
+.menu li:hover .contactlink a:hover{
+text-decoration: underline;
+color: #9b0693;
+
+}
+
+
+

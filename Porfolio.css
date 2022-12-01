@@ -65,13 +65,17 @@ body {
     margin: 10px;
     background:linear-gradient(90deg, rgba(255, 0, 127, 0.92) 49.61%,  #4169E1 49.6%);
   }
-  .resume-link{
+  .resume-link {
     text-decoration: none;
     color:blue;
   }
   .resume{
     margin: 0px;
   }
+    .resume-link:hover{
+text-decoration: underline;
+    }
+  
  @media (max-width:450px) {
     .menu li {
         padding: 10px;

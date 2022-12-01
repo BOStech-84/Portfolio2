@@ -1,13 +1,102 @@
-*{
+     *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body {
     text-align: center;
+    margin: auto;
+    overflow: auto;
+    overflow-x: hidden;
     color: #ffffff;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     font-family: Helvetica, Arial, sans-serif;
     background:linear-gradient(90deg, #4169E1 49.6%, rgba(255, 0, 127, 0.92) 49.61%);
 } 
+.menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    text-align: right;
+    width: 100%;
+    background-color: #0000ff;
+  }
+  .menu li {
+    display: inline-block;
+    padding: 20px 15px;
+  }
+  .menu li:hover{
+    text-decoration: underline;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+  }
+  .container{
+    margin:auto;
+    max-width: 100%;
+    padding: 20px;
+    border-radius:10px;
+   object-fit: fill;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 2em;
+  }
+  .images{
+ margin: auto;
+  border:5px solid #0000ff;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 20px solid #0000ff;
+  }
+  .images img{
+    width:600px;
+    height: 600px;
+    margin:5px;
+     display:flex;
+    object-fit: cover;
+  }
+  
+  .images:hover{
+    transform: scale(1.1);
+    z-index: 2;
+ 
+  }
+  h1{
+    font-size: 32px;
+    margin: 10px;
+    padding:20px;
+  }
+  p{
+    font-size: 24px;
+    font-style: bold;
+  }
+  .describe{
+    margin-top: 30px;
+  }
+  .behance img{
+    width:30px;
+  height: 30px;
+  border-radius: 10px;
+  margin: auto;
+  }
+  #text{
+    font-size: 20px;
+    font-style: italic;
+    color:#0000ff;
+   }
+  .behance{
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    width: 250px;
+    margin:auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
